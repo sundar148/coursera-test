@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML ELEMENTS</title>
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet"  href="css/style.css">
+	<script>
+		document.getElementsById("demo").innerHTML="Hello Javascript";
+	</script>
+</head>
+<body>
+	<nav id="top">
+		<a href="#">Home</a>
+		<a href="#">Games</a>s
+		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</nav>
+	<table border="1">
+	<caption>INDEX</caption>
+	<tr>	
+		<td><a href="#headins">1.headings</a></td>
+	</tr>
+	<tr>	
+		<td><a href="#paragraphs">2.paragraph</a></td>
+	</tr>
+	<tr>
+		<td><a href="#textformatting">3.text-formatting</a></td>
+	</tr>
+	<tr>
+		<td><a href="#link-images">4.link and images</a></td>
+	</tr>
+	<tr>
+		<td><a href="#iframe">iframe</a></td>
+	</tr>
+	<tr>
+		<td><a href="#tables-list">5.tables and list</a></td>
+	</tr>
+	<tr>
+		<td><a href="#forms">6.forms</a></td>
+	</tr>
+	<tr>
+		<td><a href="#entities">7.entities</a></td>
+	</tr>
+
+	</table><hr>
+ <!--heading-->
+    <h1 id="headings">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<hr>
+
+<!--paragraph and span-->
+<h3 id="paragraphs">paragraph,Pre-formatted text and span</h3>
+<article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span style="color: red;">span element.</span></p>
+    <h4>pre-formatted text</h4>
+    <pre>
+	    This is 
+	    Awesome
+	    sundar
+    </pre>
+</article>
+<hr>
+
+<!--text formatting-->
+<h3 id="textformatting">Text Formatting</h3>
+   <strong>bold text</strong>
+<br>
+   <i>italic text</i>
+<br>
+   <em>like italic(emphasize)</em>
+<br>
+   <p>mark<sup>2</sup></p>
+   <p>mark<sub>2</sub></p>
+   <ins>underline text</ins>
+<br>
+   <p>price  <del>400</del>  200</p>
+   <mark>hlighted text</mark>
+<hr>
+
+<!--link and images-->
+<h3 id="link-images">Link and Images</h3>
+   <a href="https://Google.com" target="blank">Link </a>
+<br><br>
+   <img src="images/wallpaper.jpg" width="200" height="200">
+<hr>
+
+<!--iframe,webpage within webpage-->
+<h3 id="iframe">iframe</h3>
+<iframe 
+   src="index.html" name="frame_a" title="my webpage" frameborder="1">
+</iframe>
+<p><a href="https://Google.com"target="frame_a">Google</a></p>
+<hr>
+
+<!--list and tables-->
+<h3 id="tables-list">Tables and List</h3>
+<table border="1" style="border-collapse:collapse ;">
+	<caption>Details</caption>
+	<tr>
+	<thead>
+		<th>Name</th>
+		<th>Age</th>
+	</thead>
+	<tbody>
+		<td>Sundar</td>
+		<td>21</td>
+	</tbody>
+	</tr>
+	<tr>
+		<tbody>
+		<td>kannan</td>
+		<td>21</td>
+		</tbody>
+	</tr>
+</table>
+<hr>
+
+<!--ordered list-->
+<h3>Ordered List</h3>
+<ol>
+	<li>Start</li>
+	<li>End</li>
+</ol>
+<hr>
+<!--nested list-->
+<h3>Nested List</h3>
+<ol>
+	<li>Coffee</li>
+	<li>Tea</li>
+	<ol>
+		<li>Black Tea</li>
+		<li>Green Tea</li>
+	</ol>
+</ol><hr>
+
+<!--unordered list and title attribute-->
+<h3>Unordered List and title attribute,hover the apple</h3>
+<ul>
+	<li title="red in color">Apple</li>
+	<li>Orange</li>
+</ul><hr>
+<!--Description List-->
+<h3>Description List</h3>
+<dl>
+	<dt>THE WALKING DEAD</dt>
+	<dd>-UNITY ENGINE</dd>
+</dl>
+<hr>
+
+<!--Quoted and Abbreviation-->
+<h3>Quoted and Abbreviation</h3>
+<q>LIFE IS STRANGE!!</q>
+<p>
+   <abbr title="WORLD HEALTH ORGANIZATION">WHO </abbr>was founded in 1948.
+</p>
+<hr>
+
+<form action="" method="post" autocomplete="on">
+	<h3 id="forms">Forms and Their Attributes</h3>
+<div>
+	<fieldset>
+		<legend>Login</legend>
+	<input type="text" name="name" placeholder="username" required size="30">
+<br><br>
+	<input type="password" name="" placeholder="password">
+</div><br>
+</fieldset>
+<div>
+	<input type="email" name="email" placeholder="example@mail.com" disabled>
+</div><br>
+<div>
+	<input type="number" name="ph.no." placeholder="ph.number">
+</div><br>
+<div>
+	<input list="browsers" placeholder="your browser">
+	<datalist id="browsers">
+		<option>microsoft edge</option>
+		<option>chrome</option>
+		<option>firefox</option>
+		<option>safari</option>
+	</datalist>
+
+</div><br>
+<div>
+	<label>DOB</label>
+	<input type="date" name="dob">
+	<label>time</label>
+	<input type="time" name="time">
+</div><br>
+<div>
+	<label>Gender</label>
+	<input type="radio" name="gender" id="male" value="male">
+	<label>male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label>female</label>
+</div><br>
+<div>
+	<label>Language Known</label>
+	<input type="checkbox" name="lang" checked><label>tamil</label>
+	<input type="checkbox" name="lang" checked><label>english</label>
+	<input type="checkbox" name="lang"><label>hindi</label>
+</div><br>
+<div>
+	<label>Skill</label>
+	<select multiple >
+		<option>Html</option>
+		<option>Css</option>
+		<option selected>Unity</option>
+	</select>
+</div><br>
+<div>
+	<label>Favourite color</label>
+	<input type="color" name="">
+</div><br>
+<div>
+	<input type="file" name="file">
+</div><br>
+<div>
+	<input type="submit" name="">
+	<input type="reset" name="">
+</div><hr>
+
+<!--html entities-->
+<h3 id="entities">Character Entities</h3>
+<p> copyright &copy;</p>
+<p> registered &reg;</p>
+<p> trademark &trade;</p>
+<p> emoji &#128516 </p>
+<p> emoji &#128151 etc...</p>
+
+<hr>
+<!--BookMark-->
+<h3>BookMark</h3>
+<a href="#top">back to top</a>
+<hr>
+<h1>javascript demo</h1>
+<p id="demo">js</p>
+</form>
+</body>
+</html>
