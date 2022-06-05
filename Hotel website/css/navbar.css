@@ -65,7 +65,7 @@ body {
 	text-decoration: none;
 	font-size: 1.5em;
 	color: #951C49;
-  text-align: center;
+        text-align: center;
 }
 .backimg {
 	border: 2px solid #111;
@@ -84,10 +84,12 @@ body {
 .menutile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
+  background-size:cover;
 }
 .specialtile {
   background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
+  background-size:cover;
 }
 .maptile {
   width:  100%;
