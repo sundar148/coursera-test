@@ -22,7 +22,7 @@ body {
 	width: 150px;
 	height: 150px;
 	float: left;
-  margin: 10px 15px 10px 0;
+        margin: 10px 15px 10px 0;
 }
 #clear {
 	clear: left;
@@ -33,7 +33,7 @@ body {
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px #111;
 	padding-top: 30px;
-  line-height: 0.50;
+        line-height: 0.50;
 }
 .brand a {
 	text-decoration: none;
@@ -84,7 +84,7 @@ body {
 .menutile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size:cover;      
 }
 .specialtile {
   background: url('../images/specials-tile.jpg') no-repeat;
@@ -101,10 +101,10 @@ body {
 	text-align: center;
 	width: 100%;
 	font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        opacity: .8;
 }
 footer {
   padding-top: 35px;
